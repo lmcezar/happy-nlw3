@@ -8,7 +8,7 @@ export default {
     }
   },
 
-  renderMany(images: Images[]){
+  renderMany(images: Image[]){
     return images.map(image => this.render(image))
   }
 }
